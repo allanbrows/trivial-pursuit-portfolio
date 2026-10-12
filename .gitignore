@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# dbt
+target/
+logs/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
